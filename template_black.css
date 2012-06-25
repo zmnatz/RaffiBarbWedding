@@ -1,0 +1,97 @@
+/*
+	------------------------------------------------------------------
+	created by 		: Paul van Roekel
+	date			: july 2006	
+	------------------------------------------------------------------	
+	You're welcome to use any code in this file for your own projects
+	the used images however are copyrighted and not for use 
+	on other sites! Want to contact me? Use the form on this website...
+*/
+
+#container {
+	color:#FFFFFF;
+	line-height: 18px;
+	margin: 15px auto;
+	width: 900px;
+}
+
+#title  {
+	color: #76B41C;
+	letter-spacing: 1px;
+	padding: 5px;
+	margin: 10px;
+	font: bold 14px Georgia, "Times New Roman", Times, serif;
+	text-transform: capitalize;
+}
+
+#description{
+	background: #000000;
+	border: 1px solid #333333;
+	padding: 10px;
+	margin: 5px;
+	width: 90%;
+	float: left;
+	height: auto;
+	font-weight: bold;
+}
+
+
+#navigation{
+	bbackground: #000000;
+	padding: 10px;
+	margin: 5px;
+	width: 100%;
+	float: left;
+	height: auto;
+	text-align:center;
+}
+
+#navigation a{
+	color: #fff;
+	text-decoration: underline;
+}
+
+#picture {
+	padding: 7px;
+	margin: 5px 0px;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+}
+
+.thumbnail {
+	float: left;
+	margin: 5px;
+	padding: 3px;
+	text-align: center;
+	color: #CCCCCC;
+	width: 164px;
+	height: 200px;
+	}
+
+.thumbnail img{
+	background: #000;
+	padding: 7px;
+	margin: auto;
+	display:block;
+}
+
+
+
+.thumbnail a {
+	color:#999999;
+	text-decoration: none;
+}
+
+a img {
+	border:none;
+}
+
+#gallerycontainer{
+	padding: 0px;
+	text-align:center;
+}
+
+
+
+
+	

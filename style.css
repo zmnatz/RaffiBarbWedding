@@ -1,0 +1,79 @@
+#content {
+	background-color: #203042;
+	min-width: 900px;
+	min-height: 600px;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+	border: 4px solid #83a2c2;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	float: left;
+}
+
+body {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+h1 {
+	position: relative;
+	margin: 0px 20px 0px 20px;
+	padding-top: 30px;
+	padding-left: 100px;
+	border-bottom: 4px solid #83a2c2;
+	border-right: 4px solid #83a2c2;
+	border-left: 4px solid #83a2c2;
+	color: white;
+	text-align: center;
+	background-color:#344e6c;
+	-moz-border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius:0px 0px 20px 20px;
+    -khtml-border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+    behavior: url(/img/border-radius.htc);
+    font-family: sans-serif;
+	font-size: 55px;
+	height: 140px;
+	background-image: url('images/head.png');
+	background-repeat:no-repeat;
+}
+
+ul#nav{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: 5px;
+	width: 70%;
+	border-top: 4px solid #83a2c2;
+	height: 20px;
+	list-style-type: none;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: left;
+}
+
+ul#nav li {
+	display: inline;
+	margin: 0 2px;
+}
+
+ul#nav li.selected {
+	background-color: #83a2c2;
+	color: white;
+	padding: 0px 5px 3px 5px;
+}
+
+ul#nav li a:hover {
+	background-color: #83a2c2;
+}
+ul#nav li a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	padding: 0px 5px 3px 5px;
+}
